@@ -23,6 +23,9 @@ erl_crash.dump
 [Rr]elease/
 [Bb]in/
 [Oo]bj/
+/[Nn]et8.0/
+/[Dd]ebug/net8.0/
 .vs/
-/.vs/AddressBook/DesignTimeBuild/.dtbcache.v2
-*[Cc]ache
+*.[Cc]ache
+*.[Vv]sidx
+/AddressBook.API/obj/AddressBook.API.csproj.nuget.dgspec.json
