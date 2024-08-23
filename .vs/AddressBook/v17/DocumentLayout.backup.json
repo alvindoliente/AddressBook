@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB86A941-9B5D-41A9-8E49-6F2BCF5962ED}|AddressBook.Test\\AddressBook.NUnitTest.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.test\\contactscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB86A941-9B5D-41A9-8E49-6F2BCF5962ED}|AddressBook.Test\\AddressBook.NUnitTest.csproj|solutionrelative:addressbook.test\\contactscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE0429-E3D1-4502-A69F-3623926DFA30}|AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.xunittest\\contactscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE0429-E3D1-4502-A69F-3623926DFA30}|AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj|solutionrelative:addressbook.xunittest\\contactscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.objects\\repositories\\inmemorycontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|solutionrelative:addressbook.objects\\repositories\\inmemorycontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\addressbook.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\addressbook.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE0429-E3D1-4502-A69F-3623926DFA30}|AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.xunittest\\addressbook.xunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83DE0429-E3D1-4502-A69F-3623926DFA30}|AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj|solutionrelative:addressbook.xunittest\\addressbook.xunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.objects\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|solutionrelative:addressbook.objects\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\addressbook.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\addressbook.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.objects\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|solutionrelative:addressbook.objects\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.objects\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|solutionrelative:addressbook.objects\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.objects\\addressbook.objects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|solutionrelative:addressbook.objects\\addressbook.objects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.objects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE78815-BF4C-4EB7-B3E2-F9B946AD5729}|AddressBook.Objects\\AddressBook.Objects.csproj|solutionrelative:addressbook.objects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|c:\\_working folder\\projects\\addressbook\\addressbook.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BDED1924-8176-43DD-AC91-EA41A7EAA334}|AddressBook.API\\AddressBook.API.csproj|solutionrelative:addressbook.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactsControllerTests.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.XUnitTest\\ContactsControllerTests.cs",
+              "RelativeDocumentMoniker": "AddressBook.XUnitTest\\ContactsControllerTests.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.XUnitTest\\ContactsControllerTests.cs",
+              "RelativeToolTip": "AddressBook.XUnitTest\\ContactsControllerTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:32:42.113Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "AddressBook.Objects\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "AddressBook.Objects\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:42:03.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "AddressBook.API\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "AddressBook.API\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAArwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:02:20.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InMemoryContactRepository.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Repositories\\InMemoryContactRepository.cs",
+              "RelativeDocumentMoniker": "AddressBook.Objects\\Repositories\\InMemoryContactRepository.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Repositories\\InMemoryContactRepository.cs",
+              "RelativeToolTip": "AddressBook.Objects\\Repositories\\InMemoryContactRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:08:50.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AddressBook.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AddressBook.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:35:19.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\Program.cs",
+              "RelativeDocumentMoniker": "AddressBook.API\\Program.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\Program.cs",
+              "RelativeToolTip": "AddressBook.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T20:37:13.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsControllerTests.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Test\\ContactsControllerTests.cs",
+              "RelativeDocumentMoniker": "AddressBook.Test\\ContactsControllerTests.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Test\\ContactsControllerTests.cs",
+              "RelativeToolTip": "AddressBook.Test\\ContactsControllerTests.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T17:24:51.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddressBook.API",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\AddressBook.API.csproj",
+              "RelativeDocumentMoniker": "AddressBook.API\\AddressBook.API.csproj",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\AddressBook.API.csproj",
+              "RelativeToolTip": "AddressBook.API\\AddressBook.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-23T16:03:14.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddressBook.XUnitTest",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj",
+              "RelativeDocumentMoniker": "AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj",
+              "RelativeToolTip": "AddressBook.XUnitTest\\AddressBook.XUnitTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-23T16:34:44.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AddressBook.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\WeatherForecast.cs",
+              "RelativeToolTip": "AddressBook.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:22:39.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddressBook.API.http",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\AddressBook.API.http",
+              "RelativeDocumentMoniker": "AddressBook.API\\AddressBook.API.http",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\AddressBook.API.http",
+              "RelativeToolTip": "AddressBook.API\\AddressBook.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-23T16:22:33.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Interfaces\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "AddressBook.Objects\\Interfaces\\IContactRepository.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Interfaces\\IContactRepository.cs",
+              "RelativeToolTip": "AddressBook.Objects\\Interfaces\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:09:22.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "AddressBook.Objects\\Models\\Contact.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Models\\Contact.cs",
+              "RelativeToolTip": "AddressBook.Objects\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:10:11.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddressBook.Objects",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\AddressBook.Objects.csproj",
+              "RelativeDocumentMoniker": "AddressBook.Objects\\AddressBook.Objects.csproj",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\AddressBook.Objects.csproj",
+              "RelativeToolTip": "AddressBook.Objects\\AddressBook.Objects.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-23T16:05:50.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Class1.cs",
+              "RelativeDocumentMoniker": "AddressBook.Objects\\Class1.cs",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.Objects\\Class1.cs",
+              "RelativeToolTip": "AddressBook.Objects\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:04:24.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AddressBook.API\\appsettings.json",
+              "ToolTip": "C:\\_WORKING FOLDER\\PROJECTS\\AddressBook\\AddressBook.API\\appsettings.json",
+              "RelativeToolTip": "AddressBook.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-21T20:40:31.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
