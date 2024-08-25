@@ -2,7 +2,7 @@
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
     "Method": "GetAll",
-    "RelativePath": "Contacts",
+    "RelativePath": "api/Contacts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
     "Method": "Add",
-    "RelativePath": "Contacts",
+    "RelativePath": "api/Contacts",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
     "Method": "GetById",
-    "RelativePath": "Contacts/{id}",
+    "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +74,7 @@
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
     "Method": "Update",
-    "RelativePath": "Contacts/{id}",
+    "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -95,7 +95,7 @@
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
     "Method": "Delete",
-    "RelativePath": "Contacts/{id}",
+    "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
