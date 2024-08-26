@@ -13,14 +13,14 @@ export default function App() {
         </nav>
       </div>
       <div className="container-fluid">
-        <div className="card">
-        <div className="card-header bg-dark text-white">
-            Contact Manager
-          </div>
-          <div className="card-body">
-            <Contacts />
-          </div>
-        </div>
+          <div className="card">
+            <div className="card-header bg-dark text-white">
+                Contact Manager
+            </div>
+            <div className="card-body">
+              <Contacts />
+            </div>
+          </div>       
       </div>
     </>
   )

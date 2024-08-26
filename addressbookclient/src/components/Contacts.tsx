@@ -56,7 +56,7 @@ export default function Contacts() {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="table-responsive mt-4 pl-10 pr-10">
       <h1>Contacts</h1>
       {editingContact ? (
         <ContactForm key={editingContact.id} contact={editingContact} onSave={updateContact} />
@@ -64,8 +64,8 @@ export default function Contacts() {
         <ContactForm onSave={addContact} />
       )}
       {contacts.length > 0 ? (
-        <table className="table table-striped">
-          <thead>
+        <table className="table table-striped table-hover">
+          <thead className ="table-dark">
             <tr>
               <th>First Name</th>
               <th>Last Name</th>

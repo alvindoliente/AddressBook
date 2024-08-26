@@ -33,7 +33,7 @@ internal class Program
         {
             options.AddPolicy("AllowReactApp", policy =>
             {
-                policy.WithOrigins("http://localhost:5174")
+                policy.WithOrigins("http://localhost:5173", "http://localhost:5174")
                       .AllowAnyHeader()
                       .AllowAnyMethod();
             });
