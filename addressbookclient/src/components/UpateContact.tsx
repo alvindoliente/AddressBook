@@ -42,28 +42,36 @@ function UpdateContact() {
 	const navigate = useNavigate();
 
 	function updateContactHandler() {
-		var payload = {
-			firstName: firstName.current?.value,
-			lastName: lastName.current?.value,
-			email: email.current?.value,
-			phone: phone.current?.value,
-			imageUrl: imageUrl.current?.value,
-			id: id,
-		};
+		if (
+			firstName.current?.reportValidity() &&
+			lastName.current?.reportValidity() &&
+			email.current?.reportValidity() &&
+			phone.current?.reportValidity() &&
+			imageUrl.current?.reportValidity()
+		) {
+			var payload = {
+				firstName: firstName.current?.value,
+				lastName: lastName.current?.value,
+				email: email.current?.value,
+				phone: phone.current?.value,
+				imageUrl: imageUrl.current?.value,
+				id: id,
+			};
 
-		axios.put(`https://localhost:7228/api/contacts/${id}`, payload)
-			.then((response) => {
-				console.log(response);
-				navigate("/");
-				setMessage("Contact successfully updated!", "success");
-			})
-			.catch((error) => {
-				console.log(error);
-				setMessage(
-					`Error encountered while updating the contact. Error: ${error}`,
-					"danger"
-				);
-			});
+			axios.put(`https://localhost:7228/api/contacts/${id}`, payload)
+				.then((response) => {
+					console.log(response);
+					navigate("/");
+					setMessage("Contact successfully updated!", "success");
+				})
+				.catch((error) => {
+					console.log(error);
+					setMessage(
+						`Error encountered while updating the contact. Error: ${error}`,
+						"danger"
+					);
+				});
+		}
 	}
 
 	return (
@@ -72,33 +80,49 @@ function UpdateContact() {
 			<Form>
 				<Form.Group className="mb-3" controlId="formFirstName">
 					<Form.Label>First Name</Form.Label>
-					<Form.Control type="text" placeholder="First Name" ref={firstName} />
+					<Form.Control
+						type="text"
+						placeholder="First Name"
+						ref={firstName}
+						required
+					/>
 				</Form.Group>
 
 				<Form.Group className="mb-3" controlId="formLastName">
 					<Form.Label>Last Name</Form.Label>
-					<Form.Control type="text" placeholder="Last Name" ref={lastName} />
+					<Form.Control
+						type="text"
+						placeholder="Last Name"
+						ref={lastName}
+						required
+					/>
 				</Form.Group>
 
 				<Form.Group className="mb-3" controlId="formEmail">
 					<Form.Label>Email Address</Form.Label>
-					<Form.Control type="email" placeholder="Enter email" ref={email} />
-					<Form.Text className="text-muted">
-						We'll never share your email with anyone else.
-					</Form.Text>
+					<Form.Control
+						type="email"
+						placeholder="Enter email"
+						ref={email}
+						required
+					/>
 				</Form.Group>
 
 				<Form.Group className="mb-3" controlId="formPhone">
-					<Form.Label>Phone Number</Form.Label>
-					<Form.Control type="phone" placeholder="Enter phone number" ref={phone} />
-					<Form.Text className="text-muted">
-						We'll never share your phone numbert with anyone else.
-					</Form.Text>
+					<Form.Label>Phone Number (###-###-####)</Form.Label>
+					<Form.Control
+						type="tel"
+						placeholder="Enter phone number"
+						pattern="^\d{3}-\d{3}-\d{4}$"
+						title="Please enter a valid phone number"
+						ref={phone}
+						required
+					/>
 				</Form.Group>
 
 				<Form.Group className="mb-3" controlId="formImageUrl">
 					<Form.Label>Image Url</Form.Label>
-					<Form.Control type="text" placeholder="Image" ref={imageUrl} />
+					<Form.Control type="text" placeholder="Image" ref={imageUrl} required />
 				</Form.Group>
 
 				<Button variant="primary" type="button" onClick={updateContactHandler}>
