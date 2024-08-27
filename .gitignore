@@ -29,3 +29,6 @@ erl_crash.dump
 *.[Cc]ache
 *.[Vv]sidx
 /AddressBook.API/obj/AddressBook.API.csproj.nuget.dgspec.json
+/.vs/AddressBook/v17/TestStore/0/001.testlog
+/AddressBook.Test/bin/Debug/net8.0/nunit_random_seed.tmp
+/addressbookclient/package-lock.json
