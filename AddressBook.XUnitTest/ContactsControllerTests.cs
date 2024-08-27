@@ -26,7 +26,7 @@ namespace AddressBook.XUnitTest
             int nonExistentId = 999;
 
             // Act & Assert
-            var exception = Assert.Throws<KeyNotFoundException>(() => _repository.GetById(nonExistentId));
+            var exception = Assert.Throws<KeyNotFoundException>(() => _repository.GetContactByIdAsync(nonExistentId));
             Assert.Equal($"Contact with ID {nonExistentId} not found.", exception.Message);
         }
 
@@ -54,7 +54,7 @@ namespace AddressBook.XUnitTest
         public void Add_NullContact_ThrowsArgumentNullException()
         {
             // Act & Assert
-            Assert.Throws<ArgumentNullException>(() => _repository.Add(null));
+            Assert.Throws<ArgumentNullException>(() => _repository.AddContactAsync(null));
         }
 
         [Fact]
@@ -64,7 +64,7 @@ namespace AddressBook.XUnitTest
             int nonExistentId = 999;
 
             // Act & Assert
-            var exception = Assert.Throws<KeyNotFoundException>(() => _repository.Delete(nonExistentId));
+            var exception = Assert.Throws<KeyNotFoundException>(() => _repository.DeleteContactAsync(nonExistentId));
             Assert.Equal($"Contact with ID {nonExistentId} not found.", exception.Message);
         }
     }

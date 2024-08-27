@@ -24,5 +24,7 @@ namespace AddressBook.Objects.Models
 
         [Phone(ErrorMessage = "Invalid Phone Number")]
         public string? Phone { get; set; }
+
+        public string? ImageUrl { get; set; }
     }
 }

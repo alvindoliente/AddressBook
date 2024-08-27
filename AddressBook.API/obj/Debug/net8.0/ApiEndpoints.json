@@ -1,27 +1,17 @@
 [
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
-    "Method": "GetAll",
+    "Method": "GetAllContacts",
     "RelativePath": "api/Contacts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[AddressBook.Objects.Models.Contact, AddressBook.Objects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
-    "Method": "Add",
+    "Method": "AddContact",
     "RelativePath": "api/Contacts",
     "HttpMethod": "POST",
     "IsController": true,
@@ -33,21 +23,11 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AddressBook.Objects.Models.Contact",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
-    "Method": "GetById",
+    "Method": "GetContactById",
     "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -59,21 +39,11 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AddressBook.Objects.Models.Contact",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
-    "Method": "Update",
+    "Method": "UpdateContact",
     "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -94,7 +64,7 @@
   },
   {
     "ContainingType": "AddressBook.API.Controllers.ContactsController",
-    "Method": "Delete",
+    "Method": "DeleteContact",
     "RelativePath": "api/Contacts/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,

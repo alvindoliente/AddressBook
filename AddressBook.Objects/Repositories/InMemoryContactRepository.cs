@@ -11,53 +11,55 @@ namespace AddressBook.Objects.Repositories
 
     public class InMemoryContactRepository : IContactRepository
     {
-        private readonly List<Contact> _contacts = new();
+        private readonly List<Contact> _contacts = new List<Contact>();
+
         private int _nextId = 1;
 
-        public IEnumerable<Contact> GetAll() => _contacts;
-
-        public Contact GetById(int id_)
+        public Task<IEnumerable<Contact>> GetAllContactsAsync()
         {
-            Contact? contact = _contacts.FirstOrDefault(c => c.Id == id_);
-
-            return contact ?? throw new KeyNotFoundException($"Contact with ID {id_} not found.");
+            return Task.FromResult(_contacts.AsEnumerable());
         }
 
-        public void Add(Contact contact_)
+        public Task<Contact> GetContactByIdAsync(int id_)
         {
-            ArgumentNullException.ThrowIfNull(contact_);
+            //Contact? contact = _contacts.FirstOrDefault(c => c.Id == id_);
+            //return contact ?? throw new KeyNotFoundException($"Contact with ID {id_} not found.");
+            Contact contact = _contacts.FirstOrDefault(c => c.Id == id_) ?? throw new KeyNotFoundException($"Contact with Id {id_} not found.");
+            return Task.FromResult(contact);
+        }
 
+        public Task AddContactAsync(Contact contact_)
+        {
             contact_.Id = _nextId++;
+
+            if (_contacts.Any(c => c.Id == contact_.Id))
+            {
+                throw new InvalidOperationException($"A contact with Id {contact_.Id} already exists.");
+            }
             _contacts.Add(contact_);
+            return Task.CompletedTask;
         }
 
-        public void Update(Contact contact_)
+        public Task UpdateContactAsync(Contact contact_)
         {
-            ArgumentNullException.ThrowIfNull(contact_);
+            Contact existingContact = _contacts.FirstOrDefault(c => c.Id == contact_.Id) ?? throw new KeyNotFoundException($"Contact with Id {contact_.Id} not found.");
+            
+            // Update logic here
+            existingContact.FirstName = contact_.FirstName;
+            existingContact.LastName = contact_.LastName;
+            existingContact.Email = contact_.Email;
+            existingContact.Phone = contact_.Phone;
+            existingContact.ImageUrl = contact_.ImageUrl;
 
-            Contact? existing = _contacts.FirstOrDefault(c => c.Id == contact_.Id);
-
-            if (existing == null)
-            {
-                throw new KeyNotFoundException($"Contact with ID {contact_.Id} not found.");
-            }
-
-            existing.FirstName = contact_.FirstName;
-            existing.LastName = contact_.LastName;
-            existing.Email = contact_.Email;
-            existing.Phone = contact_.Phone;
+            return Task.CompletedTask;
         }
 
-        public void Delete(int id_)
+        public Task DeleteContactAsync(int id_)
         {
-            Contact? contact = _contacts.FirstOrDefault(c => c.Id == id_);
-
-            if (contact == null)
-            {
-                throw new KeyNotFoundException($"Contact with ID {id_} not found.");
-            }
+            Contact? contact = _contacts.FirstOrDefault(c => c.Id == id_) ?? throw new KeyNotFoundException($"Contact with Id {id_} not found.");
 
             _contacts.Remove(contact);
+            return Task.CompletedTask;
         }
     }
 

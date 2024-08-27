@@ -10,47 +10,89 @@ namespace AddressBook.API.Controllers
     public class ContactsController : ControllerBase
     {
 
-        private readonly IContactRepository _repository;
+        private readonly IContactRepository _contactRepository;
 
         public ContactsController(IContactRepository repository)
         {
-            _repository = repository;
+            _contactRepository = repository;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Contact>> GetAll() => Ok(_repository.GetAll());
+        public async Task<IActionResult> GetAllContacts()
+        {
+            var contacts = await _contactRepository.GetAllContactsAsync();
+            return Ok(contacts);
+        }
 
         [HttpGet("{id}")]
-        public ActionResult<Contact> GetById(int id)
+        public async Task<IActionResult> GetContactById(int id)
         {
-            Contact contact = _repository.GetById(id);
-            return Ok(contact);
+            try
+            {
+                var contact = await _contactRepository.GetContactByIdAsync(id);
+                return Ok(contact);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
         }
 
         [HttpPost]
-        public ActionResult<Contact> Add(Contact contact)
+        public async Task<IActionResult> AddContact(Contact contact)
         {
-            _repository.Add(contact);
-            return CreatedAtAction(nameof(GetById), new { id = contact.Id }, contact);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                await _contactRepository.AddContactAsync(contact);
+                return CreatedAtAction(nameof(GetContactById), new { id = contact.Id }, contact);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, Contact contact)
+        public async Task<IActionResult> UpdateContact(int id, Contact contact)
         {
-            if (id != contact.Id)
+            if (!ModelState.IsValid)
             {
-                return BadRequest(new { error = "ID in URL does not match ID in request body." });
+                return BadRequest(ModelState);
             }
 
-            _repository.Update(contact);
-            return NoContent();
+            if (id != contact.Id)
+            {
+                return BadRequest(new { message = "ID mismatch" });
+            }
+
+            try
+            {
+                await _contactRepository.UpdateContactAsync(contact);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> DeleteContact(int id)
         {
-            _repository.Delete(id);
-            return NoContent();
+            try
+            {
+                await _contactRepository.DeleteContactAsync(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
         }
 
     }
